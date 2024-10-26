@@ -99,10 +99,10 @@ class Tienda:
         return self._carrito.mostrar_carrito()
 
 def main():
-    # Crear la tienda
+
     tienda = Tienda()
     
-    # Agregar productos al inventario
+
     productos = [
         Pantalon("32", 45.99, "Casual"),
         Pantalon("34", 49.99, "Formal"),
